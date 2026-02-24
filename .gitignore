@@ -1,0 +1,51 @@
+# 忽略文件
+
+# Windows
+Thumbs.db
+Desktop.ini
+~$*
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.project
+.cproject
+.ccsproject
+
+# CCS/TI 编译产物
+CPU1_FLASH/
+CPU1_RAM/
+*.opt
+*.paf2
+*.rpo
+
+# Clangd 缓存
+.clangd/
+
+# 编译输出
+*.obj
+*.out
+*.map
+*.lst
+*.d
+*.o
+*.a
+*.lib
+
+# 二进制/缓存
+*.exe
+*.dll
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 系统隐藏文件
+.DS_Store
+
